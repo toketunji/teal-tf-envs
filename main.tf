@@ -15,6 +15,7 @@ terraform {
 
 provider "aws" {
   region = "eu-west-1"
+  profile = "nonprod"
 
   assume_role {
     role_arn = "arn:aws:iam::009011612032:role/Terra-Role"
