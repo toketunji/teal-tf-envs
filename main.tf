@@ -6,10 +6,10 @@ terraform {
 
 provider "aws" {
   region = "eu-west-1"
-  profile = "nonprod"
+  profile = "teal"
 }
 
 resource "aws_s3_bucket" "test-bucket" {
-  bucket = "oketunji-bucket"
+  bucket = "tealoket-bucket"
   acl = "private"
 }
