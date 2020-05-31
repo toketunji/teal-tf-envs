@@ -24,9 +24,4 @@ provider "aws" {
 resource "aws_s3_bucket" "test-bucket" {
   bucket = "oketunji-bucket"
   acl = "private"
-
-  tags = {
-    Name        = "Temi's Bucket"
-    Environment = "Dev"
-  }
 }
