@@ -10,6 +10,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "test-bucket" {
-  bucket = "tealoket-bucket"
+  bucket = "lolaoket-bucket"
   acl = "private"
 }
